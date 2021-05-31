@@ -20,6 +20,7 @@ nav li{
 }
 
 /**Main**/
+
 /**Banner**/
 #banner
 {
@@ -36,7 +37,7 @@ nav li{
 #banner-content{
     position:absolute;
     top: 0;
-    width:100%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -44,8 +45,48 @@ nav li{
     align-items: center;
 }
 
+#banner-content img{
+    height: 60px;
+}
+
 #banner-content h1{
     color: white;
     font-weight: 400;
     font-size: 26px;
 }
+
+/*presentation*/
+#presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120%;
+    text-align: center;
+
+}
+
+#presentation-description{
+    margin: 20px 0;
+    max-width: 700px;
+}
+#information{
+    max-width: 700px;
+    display: flex;
+}
+#information article{
+    padding:10px;
+}
+#information h2{
+    font-weight: 400px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#information p{
+    font-size: 12px;
+}
+
+.quote{
+    max-width: 600px;
+    margin-top: 40px;
+}
+
