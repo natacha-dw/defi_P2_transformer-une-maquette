@@ -88,8 +88,14 @@ nav li{
 .quote{
     max-width: 600px;
     margin-top: 40px;
+    font-weight: 300;
+    font-size: 90px;
+   
 }
-
+.quote-autor{
+    align-content: center;
+    font-size: smaller;
+}
 /**footer**/
 
 footer{
@@ -104,6 +110,8 @@ footer{
 footer h2{
     font-size:12px;
     margin: 20px 0 10px 0;
+    text-align: center;
+    
 }
 
 #footer-social{
@@ -124,6 +132,8 @@ footer h2{
     font-size: 14px;
     font-weight: 400;
     opacity: 0.6;
+    text-align: center;
+
 
 }
 
@@ -140,5 +150,19 @@ footer h2{
     font-size: 14px;
     font-weight: 400;
     opacity: 0.6;
+    text-align: center;
 
+}
+
+.footer-items-C ul{
+    text-align: unset;
+}
+
+@media screen and (max-width: 550px){
+    
+    #information,
+    #footer-items{
+        flex-direction: column;
+        align-items: center;
+    }
 }
